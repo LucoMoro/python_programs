@@ -1,2 +1,2 @@
 # python_programs
-Repository used for begginer/advanced python programming files
+Repository used for beginner/advanced python programming files

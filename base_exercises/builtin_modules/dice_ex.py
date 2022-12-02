@@ -11,5 +11,5 @@ class Dice:
 
 
 dice = Dice()
-couple= dice.roll()
-print(f'({couple[0]}, {couple[1]})')
+result= dice.roll()
+print(f'({result[0]}, {result[1]})')

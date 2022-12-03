@@ -9,3 +9,6 @@ for item in range(5, 10, 3):
 
 for item in range(5, 10):
     print(item)
+
+for number in range(3):
+    print("Attempt", number + 1, (number +1) * ".")

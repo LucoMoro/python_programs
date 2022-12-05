@@ -3,6 +3,7 @@ matrix = [
     [4, 5, 6],
     [7, 8, 9]
 ]
+
 matrix[0][2] = 20
 print(matrix[0][2])
 print(matrix)

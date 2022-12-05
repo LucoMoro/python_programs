@@ -1,6 +1,3 @@
-#Animal: Parent, Base
-#Mammal & Fish: Child, Sub
-
 class Animal:
     def __init__(self):
         self.age = 1
@@ -17,6 +14,7 @@ class Fish(Animal):
         print("swim")
     
 m = Mammal()
-m.eat()
-m.walk()
-print(m.age)
+print(isinstance(m, Animal))
+print(isinstance(m, object))
+print(issubclass(Mammal, Animal))
+print(issubclass(Mammal, object))

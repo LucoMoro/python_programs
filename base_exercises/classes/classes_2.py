@@ -1,5 +1,5 @@
 class Point:
-    def __init__(self, x, y):
+    def __init__(self, x, y): #methos whit __ are called magic methods
         self.x = x
         self.y = y
 
@@ -7,8 +7,9 @@ class Point:
         print("move")
     
     def draw(self):
-        print("draw")
+        print(f"Point ({self.x}, {self.y})")
 
 
 point1 = Point(10, 20)
-print(point1.x)
+point1.z=10
+point1.draw()

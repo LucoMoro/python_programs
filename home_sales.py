@@ -1,9 +1,11 @@
-from sales_module.sales import calc_shipping, calc_tax
-#import sales
+#from ecommerce.shopping.sales import calc_shipping, calc_tax
+#import ecommerce.sales
+from ecommerce.shopping import sales
 
-import sys
+sales.calc_tax()
+sales.calc_shipping()
 
-calc_tax()
-calc_shipping()
-
-print(sys.path)
+#print(dir(sales))
+#print(sales.__name__)
+#print(sales.__package__)
+#print(sales.__file__)

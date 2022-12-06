@@ -1,4 +1,4 @@
-#good example of inheritance
+#good example of inheritance 
 
 from abc import ABC, abstractmethod
 

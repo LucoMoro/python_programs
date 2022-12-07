@@ -1,6 +1,6 @@
 import subprocess
 
-completed = subprocess.run(["python3", "other.py"], capture_output=True, text=True)
+completed = subprocess.run(["python", "other.py"], capture_output=True, text=True)
 print("args", completed.args)
 print("returncode", completed.returncode)
 #print("stderr", completed.stderr)

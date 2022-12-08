@@ -19,3 +19,5 @@ assert "name_profile" in browser.page_source
 profile_link = browser.find_element("user-profile-link")
 link_label = profile_link.get_attribute("innerHTML")
 assert "name_profile" in link_label
+
+browser.quit()

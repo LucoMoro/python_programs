@@ -1357,5 +1357,5 @@ env/Scripts/pip3.8.exe
 env/Scripts/pip3.exe
 env/Scripts/python.exe
 env/Scripts/pythonw.exe
-Pyyelp/config.py
-PyText/config.py
+mini_programs/Pyyelp/config.py
+mini_programs/PyText/config.py
